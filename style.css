@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #444;
+    color: white;
+}
+.tituloPrincipal{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(234, 203, 7);
+}
+.card{
+    background-color: rgb(32, 169, 169);
+    
+    margin: 50px auto;
+    padding: 1.5rem;
+    height: 300px;
+    max-width: 300px;
+    width: 90%;
+    border: 3px solid white;
+}
+.card__title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.card__body{
+    width: 100%;
+    max-width: 200px;
+    max-height: 190px;
+    margin: 0 auto;
+}
+.img_pokemon{
+    width: 100%;
+    height: 100%;
+}
